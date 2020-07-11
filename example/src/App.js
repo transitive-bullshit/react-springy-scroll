@@ -98,10 +98,10 @@ export default class App extends Component {
             }}
           >
             {images.map((image, index) => (
-              <SpringyScroll>
-                <div
-                  key={index}
-                >
+              <SpringyScroll
+                key={index}
+              >
+                <div>
                   <BlockImage
                     src={image}
                     style={{
